@@ -1,0 +1,25 @@
+<Project>
+    <PropertyGroup>
+        <LangVersion>latest</LangVersion>
+        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+        <AnalysisLevel>latest</AnalysisLevel>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Authors>Collin Stevens (@collinmstevens)</Authors>
+        <Company>Collin Stevens (@collinmstevens)</Company>
+        <Copyright>Copyright © Collin Stevens (@collinmstevens) All rights Reserved</Copyright>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/collinstevens/Serilog.Enrichers.Honeycomb</PackageProjectUrl>
+        <PackageIcon>icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/collinstevens/Serilog.Enrichers.Honeycomb.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReleaseNotes>https://github.com/collinstevens/Serilog.Enrichers.Honeycomb/releases</PackageReleaseNotes>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\img\icon.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
+</Project>
